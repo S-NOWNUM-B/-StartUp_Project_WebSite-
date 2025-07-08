@@ -395,7 +395,7 @@ const Grades = () => {
                 <h3>Текущий семестр</h3>
                 <p>2 семестр • 2024 год</p>
               </div>
-              <div className="progress-circle">
+                <div className="progress-circle">
                 <CircularProgressbar
                   value={stats.qualityPercent}
                   text={`${stats.qualityPercent}%`}
